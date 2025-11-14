@@ -1,0 +1,117 @@
+
+mcp23017:
+  - id: mcp_garaj
+    address: 0x20
+
+binary_sensor:
+  - platform: gpio
+    name: "A8_Ext1"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 6   # GPA6
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext2"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 5   # GPA5
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext3"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 4   # GPA4
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext4"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 3   # GPA3
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext5"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 2   # GPA2
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext6"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 1   # GPA1
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext7"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 0   # GPA0
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext8"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 8   # GPB0
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext9"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 9   # GPB1
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext10"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 10  # GPB2
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext11"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 11  # GPB3
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext12"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 12  # GPB4
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext13"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 13  # GPB5
+      mode: INPUT
+      inverted: true
+
+  - platform: gpio
+    name: "A8_Ext14"
+    pin:
+      mcp23xxx: mcp_garaj
+      number: 14  # GPB6
+      mode: INPUT
+      inverted: true
